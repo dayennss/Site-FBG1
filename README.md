@@ -1,2 +1,4 @@
 # Site-FBG1
-made 2017
+
+Feito em 2017, para um cliente da empresa mineword, afim de vender
+e mostrar os beneficios de um plano no local.
