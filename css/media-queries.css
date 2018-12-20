@@ -1,0 +1,75 @@
+/*==== MEDIA QUERIES ====*/
+
+
+
+/* 
+ Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets, por exemplo.
+*/
+@media screen and (min-width: 768px) {
+
+
+ body { background-size: 100% 100%; }
+
+ .menu ul { margin-top: 40px; margin-right: px; }
+
+ .menu ul li a { font-size: 12pt; }
+
+ .img-logo { margin-top: -10px; }
+
+ .prim { margin-top: 10%; }
+ .slide-celular { height: 100vh;}
+   
+}
+
+
+
+
+
+/* 
+ Com uma largura mínima de 992 pixels. Monitores por exemplo.
+*/
+@media screen and (min-width: 992px) {
+
+body  { background-size: 100% 100%;}
+
+
+ .texto1 {font-size: 90px;}
+ .texto2 {font-size: 50pt;}
+ .texto3 {font-size: 40px;}
+
+ .menu{ background-color: rgba(255,255,255, .9); height: 130px; width: 100% }
+
+
+ .img-logo { margin: -5px 10px 0 30px; width: 250px }
+
+ .menu ul { margin-top: 50px; margin-right: 190px;}
+
+ .menu ul li a {color: #000; font-size: 15pt}
+
+ .prim { margin-top: 5%; margin-bottom: -200px; }
+
+ .zoom p { font-size: 10pt; }
+
+ #conteudo-slide { padding: 2px 350px 50px 350px;}
+
+ .desktop { display: block }
+ .slide-celular {display: none;}
+ #sigilo {display: block}
+
+ .about-me {height: 300px;}
+   
+.videos img {top: -40px; }
+
+.col-config-multimidia:last-child { border-top: none}
+
+
+
+
+
+
+/* 
+ Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs.
+*/
+@media screen and (min-width: 1200px) {
+
+}

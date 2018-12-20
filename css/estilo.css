@@ -1,0 +1,178 @@
+/*f
+* 
+* @author Dayene Souza
+* @version 1.0
+*
+*/
+
+/* ========================= layout ======================== */
+
+* {padding: 0; margin: 0;}
+html {width: 100%; height: 100%; overflow-x: hidden}
+body { background: url(../img/fundo1.jpg); background-attachment: fixed; overflow-x: hidden; }
+
+/*==== CONFIGURAÇÃO DO MENU  ====*/
+.navbar-header {height:30px;}
+.menu { background-color: rgba(255,255,255, .8); color: white;}
+.menu ul { margin-left: 60px; margin-top: 15px; list-style: none; }
+.menu ul li { padding: 0; margin: 0;}
+.img-logo { width: 180px; margin: -20px 0 0px 15px; padding-bottom: -25px;}
+ul li a { font-size: 15pt; color: #000; transition: .5s; font-family: 'Play', sans-serif;}
+ul li a:hover { border-bottom-width: 10px; border-bottom: 2px solid #000; transition: .15s; color: #000;}
+
+
+/*CONFIGURAÇÃO DO BOTAO DO MENU HAMBURGUER */
+.menu-hamburguer { width: 30px; margin-top: 0px; }
+
+/*=== TIPOGRAFIA DO SITE  ===*/
+.texto-slide-cel { font-size: 18pt; padding: 5px; font-family: 'Play'}
+.texto-planos {	margin-top: 30px; color: #bd9404; font-size: 15pt; padding: 20px; }
+.texto-custom { color: #000; padding: 5px; font-size: 30pt; font-family: 'Play', sans-serif;}
+.texto1 { font-family: 'Pacifico', cursive; color: white; font-size: 40pt;}
+.texto2 { font-family: 'Abel', sans-serif; color: black; font-size: 20pt;}
+.texto3 { font-family: 'Play', sans-serif; font-size: 20pt; color: white; text-shadow: 1px 1px 2px black; letter-spacing: 4px;}
+.texto4 { font-family: 'Play', sans-serif; font-size: 25pt;}
+.texto5 { font-family: 'Ubuntu Condensed', sans-serif; font-size: 13pt;}
+
+/*=== CONFIGURAÇÕES DOS BOTOES  ===*/
+.font-botao { font-weight:bolder;}
+#btn-branco { background-color: white; color: black; border-radius: 500px;
+	                                         -webkit-border-radius: 500px;
+                                                 -moz-border-radius: 500px; padding: 10px 50px 10px 50px; margin-bottom: 10px; }
+#btn-amarelo { background-color: #bd9404; color: #FFF; border: none; border-radius: 500px;
+	                                                         -webkit-border-radius: 500px;
+                                                                -moz-border-radius: 500px; padding: 10px 50px 10px 50px; margin-bottom: 10px; }
+#btn-amarelo:hover {box-shadow: 2px 2px 6px black;}
+#btn-branco:hover { box-shadow: 2px 2px 6px black;}
+
+/*CONFIGURAÇÃO PARA MUDANÇADE SLIDE NO CELULAR E NO DESKTOP */
+.desktop { display: none; }
+.slide-celular { display: block;}
+
+/*CONFIGURAÇÕES DA TELA INICIAL  */
+.telaI { height: 85vh;  display: flex; flex-direction: column; justify-content: center;}
+
+/*CONFIGURAÇÃO DO O QUE É A MINERWORLD*/
+.oqemine { background: #000; height: auto; padding: 30px;}
+.oqemine h3 { font-size: 20pt; color: #fff; text-transform: uppercase}
+.oqemine h3::after { content: ''; height: 2px; width: 130px; background-color: #bd9404; margin: 10px auto; display: block;}
+.p-miner {color: azure; max-width: 800px; }
+.img-miner { width: 160px;}
+.oqemine h4 { font-size: 18pt; color: #fff;}
+.cargo { color: #fff;; font-size: 12pt;}
+.config-col { border: 10px solid transparent}
+.config-row { border: 10px solid transparent;}
+.cadastrar { margin: 20px;}
+.cadastrar a { font-size: 16pt; padding: 10px 30px 10px 30px; background-color: #bd9404; border-radius: 20px; 
+                                                                              -webkit-border-radius: 20px;
+                                                                              -moz-border-radius: 20px; color: #fff; border: none; margin: 10px; text-decoration: none;  }
+.cadastrar a:hover { background-color: transparent; border: 2px solid #bd9404; padding: 8px 30px 8px 30px; color: #bd9404; text-decoration: none; }
+
+/*CONFIGURAÇÕE DO SEGUNDO CONTEUDO // O QUE É BITCOIN */
+.segundo-conteudo { background: url("../img/whatbitcoin.png"); padding-top:90px; padding-bottom: 50px; margin-top: -20px;}
+
+/*CONFIGURAÇÕE DO TERCEIRO CONTEUDO // PLANOS */
+.terceiro-conteudo { background-color: #000; width: 100%; height: 100%; color: white; padding: 50px 5px 50px 5px;}
+
+/*CONFIGURAÇOES DO QUARTO CONTEUDO // RECOMPENÇAS  */
+.quarto-conteudo { background: #FFF; color: #000;  padding: 30px; }
+.quarto-conteudo a { text-decoration: none; background-color: rgba(0,0,0, .9); padding: 10px; color: #fff; text-transform: uppercase; font-size: 7pt;}
+.quarto-conteudo a:hover { text-decoration: none; color: #bd9404}
+
+/*CONFIGURAÇÕES DA AREA DE CONTATO */
+#contato { background: url(../img/whatbitcoin.png); padding: 20px; margin-top: -10px;}
+#contato h1 {font-family: 'Saira Extra Condensed', sans-serif; text-align: center; }
+#contato h1::after { content: ''; height: 2px; width: 200px; background: #bd9404; display: block; margin: 10px auto; }
+.fa { color: #bd9404; margin-bottom: 2px;}
+.config-area-contato { padding: 20px; }
+
+
+/*DIVISORIAS DOS TEXTOS */
+.divisoria { border-top: 2px solid #bd9404; margin:10px; width: 50px;}
+.divisoria2 { border-top: 1.2px solid white; margin:10px; width: 100px;}
+
+/*CONFIGUAÇÃO DO SLIDE DO CELULAR */
+.slide-celular {height: 100vh; background-color: #000; margin: -20px; color: white;}
+
+/*CONFIGURAÇÃO AREA DOS PREMIOS */
+.premios-img { width: 300px; margin-bottom: 10px; }
+
+/*AREA DE ZOOM*/
+.zoom {overflow: hidden;}
+.zoom img { max-width: 100%; -moz-transition: all 0.5s;
+	                       -webkit-transition: all 0.5s;
+	                                transition: all 0.5s; }
+
+.zoom:hover img { -moz-transform: scale(1.1);
+	            -webkit-transform: scale(1.1);
+	                     transform: scale(1.1); }
+.zoom p { font-size: 8pt; color: #000;}
+.zoom li { text-align: left; }
+
+/*CONFIGURAÇÕES DO MULTIMIDIA */
+
+.multimidia { background-color: #000; padding: 40px;}
+.multimidia h5 { color: #fff; padding: 10px; text-transform: uppercase; font-weight: bold} 
+.multimidia p { color: #c6c6c6;}
+.multimidia a { color: #fff; text-transform: lowercase; border: 2px solid #fff; padding: 5px 50px 5px 50px; font-size: 13pt;}
+.multimidia a:hover {text-decoration: none; color: #bd9404}
+.btn-multimidia { margin: 30px;}
+.col-config-multimidia:last-child { border-top: 30px solid transparent; }
+
+/*---- CONFIGURAÇÃO DO SOBRE MIM  ------*/
+.h1aboutme::after {content: ''; height: 2px; width: 120px; background: #bd9404; display: block; margin: 10px auto;}
+.h1aboutme { z-index: 2; font-family: 'Saira Extra Condensed', sans-serif;}
+.about-me {background: url(../img/fundo2.jpg) 100%; background-attachment: fixed;; padding: 25px; color: white; width: 100%; height: 500px;}
+
+
+/*CONFIGURAÇÃO DO SLIDE DO DO SOBRE MIM */
+#carousel-example-generic { max-width: 700px; margin: 0 auto; padding-bottom: 50px; text-align: justify; }
+.item {padding: 0px 20px 0 20px;}
+.item p {font-size: 12pt; font-family: 'Play', sans-serif}
+.nome { display: inline-block; color: #bd9404; font-size: 16pt; text-shadow: 1px 1px 1px #000; }
+.cidade { display: inline-block; color: #bd9404; font-size: 16pt; text-shadow: 1px 1px 1px #000;}
+
+/* CONFIGURAÇÃO DA AREA DO FORMULARIO */
+#sigilo {display: none} /* NO CELULAR A FRASE DO SIGILO NAO APARECE */
+
+/* CONFIGURAÇÃO DA AREA DO RODAPE */
+footer#rodape { padding: 20px; background-color: #000; }
+.fa-2x { color: #fff; padding: 15px;}
+.mudanca { color: #fff; padding: 15px;}
+.nome-footer { padding: 15px;}
+.img-footer { width: 36px; margin-left: 5px}
+
+/* CONFIGURAÇÃO DA VALIDAÇÃO DOS NUMEROS */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                     appearance: none;
+                     margin: 0; }
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+/* CONFIGURAÇÃO DA TELA DE LOGIN */
+
+.img-central { height: 100vh; background: #fff; display: flex; flex-direction: column; justify-content: center;}
+.img-loading { width: 100px;}
+
+
+/* CONFIGURAÇÃO DO BOTAO DE VOLTAR AO TOPO */
+a[href="#top"]{ color: #bd9404; padding:10px; position:fixed; top: 90%; right:40px; display:none; font-size: 30px; }
+a[href="#top"]:hover{text-decoration:none; color: #c6c6c6; }
+
+
+/* CONFIGURAÇÃO DA BARRA DE SCROLL */
+::-webkit-scrollbar-track { background-color: rgba(0,0,0, .9);}
+::-webkit-scrollbar { background-color: rgba(0,0,0, .9);width: 4px;}
+::-webkit-scrollbar-thumb { background:  #bd9404; }
+
+
+
+
+
+

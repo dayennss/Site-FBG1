@@ -1,0 +1,11 @@
+body { padding-top: 80px; }
+
+.menu { background-color: rgba(0,0,0, .8); }
+
+
+.vdo { border: 10px solid transparent; }
+
+.icon-multimidia { font-size: 18pt; color: #bd9404; padding: 10px;}
+
+a {color: #bd9404; }
+a:hover { text-decoration: none; color: #bd9404;}
